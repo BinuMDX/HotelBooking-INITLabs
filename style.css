@@ -1,0 +1,133 @@
+header{
+    text-align: center;
+    color: #01423f;
+}
+
+html,body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    position: sticky;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(24, 1, 1);
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(5, 84, 84);
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+ .card{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .container{
+    display: flex;
+    flex-direction: column;
+ }
+
+.P{
+    width: 50%;
+    padding: 5px;
+}  
+
+img{
+    width: 292px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+button {
+  background-color: #670478;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: fit-content;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.mainfooter {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+  padding: 0;
+ 
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+} 
+
+#contact-form input,
+#contact-form textarea {
+  width: 99%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#contact-form textarea {
+  height: 200px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#contact-info{
+  color: white;
+}
